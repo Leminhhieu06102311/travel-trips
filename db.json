@@ -1,51 +1,6 @@
 {
   "users": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john.doe@example.com"
-    },
-    {
-      "id": 2,
-      "name": "Jane Doe",
-      "email": "jane.doe@example.com"
-    },
-    {
-      "firstName": "Hieu",
-      "email": "leminhhieu2003pr@gmail.com",
-      "lastName": "Le",
-      "phone": 394553872,
-      "password": "Leminhhieu2003pr@",
-      "confirmPassword": "Leminhhieu2003pr@",
-      "id": 3
-    },
-    {
-      "firstName": "Xuan",
-      "email": "xuan@gmail.com",
-      "lastName": "xuan",
-      "phone": 9237834,
-      "password": "xuan123",
-      "confirmPassword": "xuan123",
-      "id": 4
-    },
-    {
-      "firstName": "Hiếu",
-      "email": "hieu@gmail.com",
-      "lastName": "Lê",
-      "phone": 9894853,
-      "password": "123",
-      "confirmPassword": "123",
-      "id": 5
-    },
-    {
-      "firstName": "Luân",
-      "email": "luan@gmail.com",
-      "lastName": "Chấu",
-      "phone": 932485935,
-      "password": "123",
-      "confirmPassword": "123",
-      "id": 6
-    }
+   
   ],
   "locations": [
     {
@@ -58,292 +13,62 @@
       "id": "da-lat",
       "name": "Đà Lạt",
       "img": "/assets/imgs/location/Frame 74.png",
-      "food": [
-        {
-          "shortName": "Gà nướng lu",
-          "path": "ga-quay-lu-da-lat",
-          "title": "Ẩm thực Hà Nội  - Gà nướng lu Hà Nội",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "/assets/imgs/food/Rectangle 44 (1).png",
-          "rating": 4.2,
-          "quantity": 371,
-          "overview": "m Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ],
-          "comments": []
-        }
-      ],
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu."
-        }
-      ]
+      "cateforyFood": "da-lat"
     },
     {
       "id": 3,
       "name": "Hà Nội",
       "img": "/assets/imgs/location/Frame 197 (1).png",
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu."
-        }
-      ]
+      "cateforyFood": "ha-noi"
+      
     },
     {
       "id": 4,
       "name": "Nha Trang",
       "img": "/assets/imgs/location/Frame 197 (2).png",
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu."
-        }
-      ]
+      "cateforyFood": "nha-trang"
+      
     },
     {
       "id": 5,
       "name": "Bình Thuận",
       "img": "/assets/imgs/location/Frame 197.png",
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu."
-        }
-      ]
+      "cateforyFood": "binh-thuan"
+      
     },
     {
       "id": 6,
       "name": "Khánh Hòa",
       "img": "/assets/imgs/location/Rectangle 3 (1).png",
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu."
-        }
-      ]
+      "cateforyFood": "khanh-hoa"
+      
     },
     {
       "id": 7,
       "name": "Cao Bằng",
       "img": "/assets/imgs/location/Rectangle 3 (2).png",
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu."
-        }
-      ]
+      "cateforyFood": "cao-bang"
+      
     },
     {
       "id": 8,
       "name": "Gia Lai",
       "img": "/assets/imgs/location/Rectangle 4.png",
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu."
-        }
-      ]
+      "cateforyFood": "gia-lai"
+     
     },
     {
       "id": "Tay-Nguyen",
       "name": "Tây Nguyên",
       "img": "/assets/imgs/location/vungtau.png",
-      "food": [
-        {
-          "shortName": "Phở bò",
-          "path": "pho-bo-vung-tau",
-          "title": "Ẩm thực nam định - Phở nam định",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "/assets/imgs/food/Rectangle 42 (1).png",
-          "rating": 4.2,
-          "quantity": 371,
-          "overview": "m Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ],
-          "comments": []
-        }
-      ],
-      "takePhotos": [
-        {
-          "id": 1,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu.",
-          "path": "/assets/imgs/food/Rectangle 42 (1).png"
-        },
-        {
-          "id": 2,
-          "name": "Tượng chúa Kitô Chúa Kito giang tay ở Vũng Tàu",
-          "address": "Núi Nhỏ, tp. Vũng Tàu.",
-          "path": "/assets/imgs/food/Rectangle 43.png"
-        }
-      ]
+      "cateforyFood": "tay-nguyen"
+      
     }
   ],
   "foods": [
     {
       "id": "vung-tau",
       "listFood": [
-        {
-          "shortName": "Bánh Khọt",
-          "id": "banh-khot",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://sodl.baria-vungtau.gov.vn/image/journal/article?img_id=1434447&t=1685304958911",
-          "layout": "tall-panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/12/mon-banh-hoi-an-nhat-dac-san-vung-tau.png",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Nhum Nướng",
-          "id": "nhum-nuong",
-          "title": "Ẩm thực Vũng Tàu  - Nhum Nướng Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://cattour.vn/images/upload/images/Vung%20Tau/vung-tau-an-gi/nhumnuong3vi1.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://cungphuot.info/wp-content/uploads/2020/12/cac-mon-an-ngon-o-vung-tau.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "tall-panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://4.bp.blogspot.com/-x7z9lanVMbo/W4e7AvDscZI/AAAAAAAAYNU/ggKKYb1Lf-EPEkEr-alVvzRRZYGTXpFxwCLcBGAs/s1600/quan-an-ngon-vung-tau-1.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://dichoivungtau.com/wp-content/uploads/2020/09/quan-an-dem-o-vung-tau.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://ik.imagekit.io/tvlk/blog/2022/03/dac-san-vung-tau-15-1024x641.jpeg?tr=dpr-2,w-675",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://sodl.baria-vungtau.gov.vn/documents/81821/637717/dam_da_cha_ca_phuoc_hai_dac_san_vung_bien_ba_ria_vung_tau_771639706603.jpg?t=1670987526493",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "tall-panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://i.bloganchoi.com/bloganchoi.com/wp-content/uploads/2021/07/an-vat-vung-tau-1-1.jpg?fit=590%2C20000&quality=95&ssl=1",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
         {
           "id": "Hu-Tieu-Muc",
           "shortName": "Hủ Tiếu Mực",
@@ -365,248 +90,16 @@
     {
       "id": "da-lat",
       "listFood": [
-        {
-          "shortName": "Bánh Khọt",
-          "id": "banh-khot",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://sodl.baria-vungtau.gov.vn/image/journal/article?img_id=1434447&t=1685304958911",
-          "layout": "tall-panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/12/mon-banh-hoi-an-nhat-dac-san-vung-tau.png",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Nhum Nướng",
-          "id": "nhum-nuong",
-          "title": "Ẩm thực Vũng Tàu  - Nhum Nướng Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://cattour.vn/images/upload/images/Vung%20Tau/vung-tau-an-gi/nhumnuong3vi1.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://cungphuot.info/wp-content/uploads/2020/12/cac-mon-an-ngon-o-vung-tau.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "tall-panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://4.bp.blogspot.com/-x7z9lanVMbo/W4e7AvDscZI/AAAAAAAAYNU/ggKKYb1Lf-EPEkEr-alVvzRRZYGTXpFxwCLcBGAs/s1600/quan-an-ngon-vung-tau-1.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://dichoivungtau.com/wp-content/uploads/2020/09/quan-an-dem-o-vung-tau.jpg",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://ik.imagekit.io/tvlk/blog/2022/03/dac-san-vung-tau-15-1024x641.jpeg?tr=dpr-2,w-675",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://sodl.baria-vungtau.gov.vn/documents/81821/637717/dam_da_cha_ca_phuoc_hai_dac_san_vung_bien_ba_ria_vung_tau_771639706603.jpg?t=1670987526493",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "tall-panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        },
-        {
-          "shortName": "Bánh Khọt",
-          "title": "Ẩm thực Vũng Tàu  - Bánh khọt Vũng Tàu",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://i.bloganchoi.com/bloganchoi.com/wp-content/uploads/2021/07/an-vat-vung-tau-1-1.jpg?fit=590%2C20000&quality=95&ssl=1",
-          "rating": 4.2,
-          "quantity": 371,
-          "layout": "panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        }
       ]
     }
   ],
   "takePhotos": [
-    {
-      "id": "da-lat",
-      "listPhotos": [
-        {
-          "shortName": "Quảng Trường Đà Lạt",
-          "id": "quang-truong-da-lat",
-          "title": "Địa Điểm Chụp Hình Đẹp Đà Lạt  - Quảng Trường Đà Lạt",
-          "address": "28 Phạm Ngọc Thạch, Quận 3, TP. HCM - 0938 226 166",
-          "imageCover": "https://sodl.baria-vungtau.gov.vn/image/journal/article?img_id=1434447&t=1685304958911",
-          "layout": "tall-panel",
-          "overview": "Thực Quê Nhà được thiết kế vô cùng sang trọng với không gian rộng và sạch sẽ. Kết hợp với những hình ảnh truyền thống quen thuộc của người dân Việt Nam và những ánh đèn vàng ấm áp tạo nên cảm giác vô cùng gần gũi và ấm cúng. Rất thích hợp để gặp mặt đối tác hay đi ăn với gia đình, bè bạn. Nói đến món ăn truyền thống Việt Nam thì phải nhớ ngay đến bánh khọt. Bên cạnh bánh xèo đây là loại bánh dân gian được rất nhiều người yêu thích.",
-          "utilities": [
-            "Rộng rãi",
-            "Sạch sẽ",
-            "Giá rẻ",
-            "Gần trung tâm"
-          ]
-        }
-      ]
-    }
+    
   ],
   "comments": [
-    {
-      "id": "lizxnji2",
-      "name": "Xuan",
-      "content": "Tui thấy món này ở vũng tàu ngon nha anh em tới thử cho biết",
-      "path": "banh-khot",
-      "location": "vung-tau"
-    },
-    {
-      "id": "lizy6c2t",
-      "name": "Xuan",
-      "content": "Nhum này nướng lên trứng ăn ngon lắm anh em",
-      "path": "nhum-nuong",
-      "location": "vung-tau"
-    },
-    {
-      "id": "lj195rp2",
-      "name": "Xuan",
-      "content": "Ngon đấy",
-      "path": "Banh-uot",
-      "location": "vung-tau"
-    },
-    {
-      "id": "lj2f7rqz",
-      "name": "Xuan",
-      "content": "Quá Ngon",
-      "path": "banh-khot",
-      "location": "vung-tau"
-    },
-    {
-      "id": "lj2fb79t",
-      "name": "Xuan",
-      "content": "ok",
-      "path": "banh-khot",
-      "location": "vung-tau",
-      "avatar": "https://xsgames.co/randomusers/avatar.php?g=pixel"
-    },
-    {
-      "id": "lj2fbed4",
-      "name": "Xuan",
-      "content": "được đấy ",
-      "path": "banh-khot",
-      "location": "vung-tau",
-      "avatar": "https://xsgames.co/randomusers/avatar.php?g=pixel"
-    },
-    {
-      "id": "lj2flnzf",
-      "name": "Hiếu",
-      "content": "Tui thấy món này ngon á ",
-      "path": "banh-khot",
-      "location": "vung-tau"
-    }
+    
   ],
   "favourite": [
-    {
-      "product_id": "banh-khot",
-      "account_id": null,
-      "id": "lj2gmfbj"
-    },
-    {
-      "product_id": "banh-khot",
-      "account_id": "5",
-      "id": "lj2gnfmo"
-    },
-    {
-      "product_id": "nhum-nuong",
-      "account_id": "6",
-      "id": "lj2gr8a4"
-    },
-    {
-      "product_id": "banh-khot",
-      "account_id": "6",
-      "id": "lj2grra8"
-    }
+    
   ]
 }
